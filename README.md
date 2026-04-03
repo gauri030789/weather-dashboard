@@ -71,4 +71,4 @@ This application provides real-time and historical weather insights with interac
 
 ## 📂 GitHub Repository
 
-👉 https://github.com/gauri030789/weather-project
+👉 https://github.com/gauri030789/weather-dashboard
