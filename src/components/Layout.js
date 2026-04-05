@@ -12,8 +12,6 @@ function Layout({ children }) {
 
   return (
     <div className="flex min-h-screen bg-gray-100">
-
-      {/* 📌 SIDEBAR */}
       <div className="w-60 bg-white shadow-lg p-4">
         <h2 className="text-xl font-bold mb-6">🌦 WeatherPro</h2>
 
@@ -25,17 +23,11 @@ function Layout({ children }) {
           History
         </Link>
       </div>
-
-      {/* 📌 MAIN */}
       <div className="flex-1">
-
-        {/* 🔝 HEADER */}
         <div className="bg-white shadow px-6 py-4 flex justify-between">
           <h1 className="font-semibold text-lg">Dashboard</h1>
           <span className="text-gray-500">Live Data</span>
         </div>
-
-        {/* 📦 CONTENT */}
         <div className="p-6">{children}</div>
       </div>
     </div>
